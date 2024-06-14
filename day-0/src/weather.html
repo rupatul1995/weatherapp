@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatheApp</title>
+</head>
+<body>
+   <div classN>
+    /* 
+         <div className="rightdiv">
+            
+                <div className="city">
+                    <h1> Mumbai</h1>
+                     </div>
+               <div className="country">India</div>
+                 <div className="time"> 12:05:25</div>
+               <div> </div>
+               <div></div>
+               </div>
+             <div className="leftdiv"> </div>
+             <h1>{response.location.city}</h1>
+    */}
+   </div> 
+</body>
+
+
+
+<div className="maindiv">
+    <div className="rightdiv">
+
+    <div className="city">
+      <h1 >{response.location.city}</h1>
+      </div>
+
+      <div className="country">
+        <p>{response.location.country}</p>
+      </div>
+
+     <div  className="time">
+     <p >{new Date((response.current_observation.pubDate)*1000).toLocaleString()} </p>
+     </div>
+
+    
+     <div className="cloudyicon">
+        
+        <p>{response.current_observation.condition.text}</p>
+    </div>
+    <div>
+      <p>{response.current_observation.condition.temperature}</p>
+    </div>
+</html>
