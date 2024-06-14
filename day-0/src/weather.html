@@ -4,49 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatheApp</title>
+    <link rel="stylesheet" href="./weather.css"/>
 </head>
 <body>
-   <div classN>
-    /* 
-         <div className="rightdiv">
-            
-                <div className="city">
-                    <h1> Mumbai</h1>
-                     </div>
-               <div className="country">India</div>
-                 <div className="time"> 12:05:25</div>
-               <div> </div>
-               <div></div>
-               </div>
-             <div className="leftdiv"> </div>
-             <h1>{response.location.city}</h1>
-    */}
-   </div> 
+   
+<div class="maindiv">
+    <div class="rightdiv">
+
+     <div class="rightdiv1">
+        <h1 class="city">city</h1>
+        <p class="country">country</p>
+     </div>
+
+     <div class="astronomy">
+     <p>sunrise:"5:47 AM"</p>
+        <p>sunset:"8:30 PM"</p>
+    </div>
+
+     <div class="timetem">
+        <div class="time">
+        <h1>10:25:21</h1>
+        <p>15/06/24</p>
+    </div>
+        <div class="cloudy">
+        <div>cloudy</div>
+        <div>85f</div>
+    </div>
+     </div>
+
+     <div></div>
+    </div>
+
+    <div class="leftdiv">
+        <table class="tablediv">
+            <thead>
+                <tr class="tablehead">
+                    <th>Day</th>
+                    <th id="tablehead1">Date</th>
+                    <th>Higest temperature</th>
+                    <th>Lowest temperature</th>
+                    <th>Weather</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tablerow1">
+                    <td>day</td>
+                    <td>new Date</td>
+                    <td>high</td>
+                    <td>low</td>
+                    <td>text</td>
+                </tr>
+                <tr class="tablerow2">
+                    <td>day</td>
+                    <td>new Date</td>
+                    <td>high</td>
+                    <td>low</td>
+                    <td>text</td>
+                </tr>
+                <tr class="tablerow3"> 
+                    <td>day</td>
+                    <td>new Date</td>
+                    <td>high</td>
+                    <td>low</td>
+                    <td>text</td>>
+                </tr>
+                <tr class="tablerow4">
+                    <td>day</td>
+                    <td>new Date</td>
+                    <td>high</td>
+                    <td>low</td>
+                    <td>text</td>
+                </tr>
+                <tr class="tablerow5">
+                    <td>day</td>
+                    <td>new Date</td>
+                    <td>high</td>
+                    <td>low</td>
+                    <td>text</td>
+                </tr>
+                <tr class="tablerow6">
+                    <td>day</td>
+                    <td>new Date</td>
+                    <td>high</td>
+                    <td>low</td>
+                    <td>text</td>
+                </tr>
+                <tr class="tablerow7">
+                    <td>day</td>
+                    <td>new Date</td>
+                    <td>high</td>
+                    <td>low</td>
+                    <td>text</td>
+                </tr>
+                <tr class="tablerow8">
+                    <td>day</td>
+                    <td>new Date</td>
+                    <td>high</td>
+                    <td>low</td>
+                    <td>text</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    </div>
+</div>
 </body>
 
 
-
-<div className="maindiv">
-    <div className="rightdiv">
-
-    <div className="city">
-      <h1 >{response.location.city}</h1>
-      </div>
-
-      <div className="country">
-        <p>{response.location.country}</p>
-      </div>
-
-     <div  className="time">
-     <p >{new Date((response.current_observation.pubDate)*1000).toLocaleString()} </p>
-     </div>
-
-    
-     <div className="cloudyicon">
-        
-        <p>{response.current_observation.condition.text}</p>
-    </div>
-    <div>
-      <p>{response.current_observation.condition.temperature}</p>
-    </div>
-</html>
