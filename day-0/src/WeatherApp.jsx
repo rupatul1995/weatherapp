@@ -68,7 +68,10 @@ try {
     </div>
 
     <div class="leftdiv">
-        {/* <input name="name" value={}/> */}
+        <div className="search">
+            <p>Enter City</p>
+        <input className="search1"  name="name" />
+        </div>
     {/* <div class="astronomy">
      <p>sunrise:"5:47 AM"</p>
         <p>sunset:"8:30 PM"</p>

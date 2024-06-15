@@ -86,7 +86,7 @@
     font-size: 15px;
 }
 .tempre{
-    font-size: 40px;
+    font-size: 70px;
 }
 
 
@@ -104,6 +104,7 @@
     border: 2px solid rgb(240, 121, 121);
     margin-top: auto;
     margin-top: 130px;
+    background-image: url(./cityphoto.jpg);
 }
 .tablehead{
     color: white;
@@ -138,3 +139,22 @@
 .tablerow8{
     color: white;
 }
+
+.search{
+    width: 50%;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+
+
+}
+.search1{
+    width: 60%;
+    height: 40px;
+    padding-left: 20px;
+}
+.search > p{
+   color: white;
+   font-weight: 600; 
+   padding-top: 10px;
+  }
