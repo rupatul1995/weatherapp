@@ -4,6 +4,7 @@ import './weather.css';
 
 function WeatherApp(){
     const[WeatherApp , setWeatherApp]=useState([]);
+    // const[input ,setInput]=useState("Mumbai")
     console.log(WeatherApp ,"WeatherApp");
   
     async function GetWeatherApp(){
@@ -31,7 +32,7 @@ try {
 }
 }
     useEffect(()=>{
-  GetWeatherApp();
+  GetWeatherApp( );
     },[]);
   
 
@@ -68,10 +69,10 @@ try {
     </div>
 
     <div class="leftdiv">
-        <div className="search">
+        {/* <div className="search">
             <p>Enter City</p>
-        <input className="search1"  name="name" />
-        </div>
+        <input className="search1"  value={input} onChange={(e)=>setInput(e.target.value)} />
+        </div> */}
     {/* <div class="astronomy">
      <p>sunrise:"5:47 AM"</p>
         <p>sunset:"8:30 PM"</p>
