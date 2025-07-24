@@ -29,8 +29,8 @@
     color: white;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
-    margin-left: 69%;
-    padding-left: 40px;
+    /* margin-left: 69%; */
+    /* padding-left: 40px; */
 }
 .city{
     color: white;
@@ -38,7 +38,8 @@
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
-    padding-left: 10%;
+    padding-left: 80px;
+    margin-top: 30px;
 }
 .country{
     color: white;
@@ -58,8 +59,6 @@
     font-weight: 900;
     /* margin-left: 60%; */
     padding-left: 80px;
-    padding-top: 60px;
-    margin-top: 150px;
  
 }
 .timetem{
@@ -94,9 +93,8 @@
     width: 50%;
     height: 650px;
     border-right: 1px solid white;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: auto;
-    /* background-image: url(); */
 }
 .tablediv{
     width: 80%;
@@ -160,3 +158,43 @@
    font-weight: 600; 
    padding-top: 10px;
   }
+
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.search1 {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s border-color ease-in-out;
+}
+
+.search1:focus {
+  border-color: #864306;
+}
+
+.search button {
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color: #b3612b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s background-color ease-in-out;
+}
+
+.search button:hover {
+  background-color: #742c05;
+}
