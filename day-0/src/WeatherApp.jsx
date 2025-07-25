@@ -53,8 +53,6 @@ function WeatherApp() {
             </div>
 
             <div className="astronomy">
-              {/* <p>Sunrise: {response.astronomy?.sunrise || "N/A"}</p>
-              <p>Sunset: {response.astronomy?.sunset || "N/A"}</p> */}
             </div>
 
             <div className="timetem">
